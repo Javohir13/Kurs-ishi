@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:elevation="4dp"
+        android:background="@drawable/bac_items"
+        android:layout_margin="8dp">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="8"
+                  android:orientation="vertical"
+                  android:gravity="center"
+                  android:padding="8dp"
+                  android:layout_margin="8dp"
+                  android:background="@drawable/bac_items"
+                  android:elevation="4dp">
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  style="@style/Text"
+                  android:text="1-Mavzu"
+                  android:gravity="center|left"
+                  android:textSize="16sp"
+                  android:textStyle="bold"
+                  android:id="@+id/text_item_main"/>
+    </LinearLayout>
+    <!--<LinearLayout android:layout_width="match_parent"-->
+                  <!--android:layout_height="2dp"-->
+                  <!--android:layout_weight="0.01"-->
+                  <!--android:background="@color/colorSecondaryDark"/>-->
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="10"
+                  android:orientation="vertical"
+                  android:gravity="center"
+                  android:layout_margin="8dp">
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  style="@style/Text"
+                  android:text="defaolt"
+                  android:textSize="20sp"
+                  android:id="@+id/text_item_main_title"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="defaolt"
+                  android:maxLines="2"
+                  android:padding="8dp"
+                  android:id="@+id/text_item_main_massage"/>
+    </LinearLayout>
+
+</LinearLayout>
